@@ -1,0 +1,11 @@
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--  Define a Movie bean with a unique ID "movieObject"  -->
+<bean id="movieObject" class="com.wipro.spring.beans.Movie">
+<!--  Set the movield property using the <property> tag  -->
+<property name="movield" value="M001"/>
+<!--  Set the movieName property  -->
+<property name="movieName" value="The Firm"/>
+<!--  Set the movieActor property  -->
+<property name="movieActor" value="Tom Cruise"/>
+</bean>
+</beans>
